@@ -12,6 +12,7 @@ class App < Sinatra::Base
     erb :create_puppy.erb 
   end
 
-  post '/puppy' do 
+  post '/puppy' do
+    @name = params[:name]
 
 end
