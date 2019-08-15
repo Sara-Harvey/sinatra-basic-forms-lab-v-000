@@ -14,5 +14,9 @@ class App < Sinatra::Base
 
   post '/puppy' do
     @name = params[:name]
+    @breed = params[:breed]
+    
+    
+    
 
 end
